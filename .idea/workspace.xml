@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d50f7d7c-a474-4a7d-ad5b-59d48a6cb7ae" name="Default Changelist" comment="" />
+    <list default="true" id="d50f7d7c-a474-4a7d-ad5b-59d48a6cb7ae" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/四月每日1题/21 M 1248. 统计「优美子数组」.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/四月每日1题/21 M 1248. 统计「优美子数组」.ipynb" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +102,7 @@
       <workItem from="1577432711832" duration="2675000" />
       <workItem from="1577523141176" duration="8761000" />
       <workItem from="1587371424736" duration="4794000" />
-      <workItem from="1587444588148" duration="5846000" />
+      <workItem from="1587444588148" duration="7526000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1576033373546</created>
@@ -192,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587450679428</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="4.21">
+      <created>1587450945424</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1587450945424</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
