@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d50f7d7c-a474-4a7d-ad5b-59d48a6cb7ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/六月每日1题/2.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/六月每日1题/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/五月每日1题/27 M 974. 和可被 K 整除的子数组.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/五月每日1题/27 M 974. 和可被 K 整除的子数组.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -117,6 +118,8 @@
       <workItem from="1590330106304" duration="1471000" />
       <workItem from="1590375212428" duration="668000" />
       <workItem from="1590585293103" duration="2085000" />
+      <workItem from="1591103116343" duration="499000" />
+      <workItem from="1591151265387" duration="6000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1576033373546</created>
