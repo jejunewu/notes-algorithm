@@ -23,9 +23,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1TSeYaAf8Mge5Hpk8nigG5YIzYm" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -81,6 +79,16 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -120,6 +128,7 @@
       <workItem from="1591103116343" duration="499000" />
       <workItem from="1591151265387" duration="6000" />
       <workItem from="1592228640065" duration="2206000" />
+      <workItem from="1593682225499" duration="3000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1576033373546</created>
