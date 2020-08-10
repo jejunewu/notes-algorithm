@@ -2,53 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d50f7d7c-a474-4a7d-ad5b-59d48a6cb7ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HAO/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAO/二叉树/102 层次遍历与BFS.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAO/二叉树/104 二叉树最大深度-DFS.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAO/二叉树/104 二叉树最大深度.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAO/二叉树/104 二叉树最大深度.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAO/二叉树/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAO/二叉树/str2TreeNode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAO/二叉树/test.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAO/动态规划/120 三角形最小路径.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAO/动态规划/198 打家劫舍.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAO/动态规划/300 最长上升子序列.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAO/动态规划/53 最大子序和.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAO/动态规划/64 最小路径和.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAO/动态规划/70 爬楼梯.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAO/字符串/301 反转字符串.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAO/字符串/387 第一个唯一字符.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAO/数组/14最长公共前缀.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAO/数组/350交集.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAO/数组/66 加一.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAO/数组/股票.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAO/滑动窗口/239 滑动窗口最大值.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAO/链表/141 环形链表.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAO/链表/19 删除链表倒数第N个节点.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAO/链表/21 合并两个有序链表.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAO/链表/LinkedList.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/LeetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LeetCode.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/小浩×算法/二叉树/104 二叉树最大深度.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/小浩×算法/二叉树/test.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/小浩×算法/动态规划/120 三角形最小路径.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/小浩×算法/动态规划/198 打家劫舍.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/小浩×算法/动态规划/300 最长上升子序列.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/小浩×算法/动态规划/53 最大子序和.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/小浩×算法/动态规划/64 最小路径和.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/小浩×算法/动态规划/70 爬楼梯.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/小浩×算法/字符串/301 反转字符串.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/小浩×算法/字符串/387 第一个唯一字符.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/小浩×算法/数组/14最长公共前缀.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/小浩×算法/数组/350交集.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/小浩×算法/数组/66 加一.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/小浩×算法/数组/股票.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/小浩×算法/链表/141 环形链表.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/小浩×算法/链表/19 删除链表倒数第N个节点.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/小浩×算法/链表/21 合并两个有序链表.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/小浩×算法/链表/LinkedList.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -305,6 +261,7 @@
       <workItem from="1596886793642" duration="6711000" />
       <workItem from="1596988214973" duration="150000" />
       <workItem from="1596988396989" duration="9186000" />
+      <workItem from="1597055282072" duration="1155000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1576033373546</created>
@@ -509,10 +466,10 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/LeetCode$104__DFS.coverage" NAME="104 二叉树最大深度-DFS Coverage Results" MODIFIED="1596991462591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/二叉树" />
-    <SUITE FILE_PATH="coverage/LeetCode$102_BFS.coverage" NAME="102 层次遍历与BFS Coverage Results" MODIFIED="1596989483968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hao/二叉树" />
-    <SUITE FILE_PATH="coverage/LeetCode$TreeNode.coverage" NAME="TreeNode Coverage Results" MODIFIED="1596888499907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/小浩×算法/二叉树" />
     <SUITE FILE_PATH="coverage/LeetCode$239_.coverage" NAME="239 滑动窗口最大值 Coverage Results" MODIFIED="1596805791429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/小浩×算法/滑动窗口" />
+    <SUITE FILE_PATH="coverage/LeetCode$104__DFS.coverage" NAME="104 二叉树最大深度-DFS Coverage Results" MODIFIED="1596991462591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/二叉树" />
     <SUITE FILE_PATH="coverage/LeetCode$LinkedList.coverage" NAME="LinkedList Coverage Results" MODIFIED="1596799820517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/小浩×算法/链表" />
+    <SUITE FILE_PATH="coverage/LeetCode$TreeNode.coverage" NAME="TreeNode Coverage Results" MODIFIED="1596888499907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/小浩×算法/二叉树" />
+    <SUITE FILE_PATH="coverage/LeetCode$102_BFS.coverage" NAME="102 层次遍历与BFS Coverage Results" MODIFIED="1596989483968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hao/二叉树" />
   </component>
 </project>
