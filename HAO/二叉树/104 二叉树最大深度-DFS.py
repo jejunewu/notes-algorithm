@@ -5,7 +5,7 @@ TreeNode = st.TreeNode
 def maxDepth(root: TreeNode) -> int:
     if root == None:
         return 0
-    print(maxDepth(root.left),'= = = = =', maxDepth(root.right))
+    # print(maxDepth(root.left),'= = = = =', maxDepth(root.right))
     return max(maxDepth(root.left), maxDepth(root.right)) + 1
 
 
@@ -17,11 +17,11 @@ def maxDepth2(root: TreeNode) -> int:
     res = []
     stack = deque()
     stack.append(root)
-    print(stack)
+    # print(stack)
     while(len(stack) != 0):
         # node = TreeNode()
-        node = stack[0]
-        res.append(node)
+        node = stack[-1]
+        res.append(node.val)
         stack.pop()
         if node.right != None:
             stack.append(node.right)
@@ -32,7 +32,9 @@ def maxDepth2(root: TreeNode) -> int:
 
 
 s= '[3,4,20,null,null,15,7]'
-root = st.stringToTreeNode(s)
+print(s)
 
+root = st.stringToTreeNode(s)
 res = maxDepth2(root)
+
 print(res)
