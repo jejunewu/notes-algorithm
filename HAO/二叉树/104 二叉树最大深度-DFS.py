@@ -38,3 +38,21 @@ root = st.stringToTreeNode(s)
 res = maxDepth2(root)
 
 print(res)
+
+
+def maxDepth3(root):
+    if not root:
+        return 0
+    maxdepth = 0
+    stack = [(root, 1)]
+    while stack:
+        curNode, layer = stack.pop()
+        if not curNode.left and not curNode.right and layer > maxdepth:
+                maxdepth = layer
+        if curNode.right:
+            stack.append((curNode.right, layer+1))
+        if curNode.left:
+            stack.append((curNode.left, layer+1))
+    return maxdepth
+
+print(maxDepth3(root))

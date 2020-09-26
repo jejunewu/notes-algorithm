@@ -2,7 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d50f7d7c-a474-4a7d-ad5b-59d48a6cb7ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/HAO/二叉树/589 N叉树的前序遍历.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HAO/二叉树/637 二叉树的层平均值.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HAO/二叉树/700 BST的查找.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HAO/二叉树/94 二叉树的中序遍历.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HAO/二叉树/JZ27 二叉树镜像.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HAO/二叉树/JZ54 最大第K节点.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HAO/数组排序/sort.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HAO/数组排序/冒泡.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HAO/数组排序/希尔.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HAO/数组排序/插入.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HAO/数组排序/选择.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HAO/链表/jz24 链表反转.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HAO/链表/回文链表.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HAO/二叉树/104 二叉树最大深度-DFS.py" beforeDir="false" afterPath="$PROJECT_DIR$/HAO/二叉树/104 二叉树最大深度-DFS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HAO/二叉树/BST.py" beforeDir="false" afterPath="$PROJECT_DIR$/HAO/二叉树/98 BST.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HAO/二叉树/test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/HAO/二叉树/test.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HAO/滑动窗口/239 滑动窗口最大值.py" beforeDir="false" afterPath="$PROJECT_DIR$/HAO/滑动窗口/239 滑动窗口最大值.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/归并排序.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/HAO/数组排序/归并排序.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,23 +56,25 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/HAO/二叉树" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HAO/数组排序" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Github_Repo\jejune5\LeetCode\小浩" />
-      <recent name="D:\JEJUNE\Github_Repo\jejune5\LeetCode" />
-      <recent name="G:\Turbulrnce\Graduate-Project\LeetCode\1-50" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Github_Repo\jejune5\LeetCode\HAO\数组排序" />
       <recent name="F:\Github_Repo\jejune5\LeetCode\HAO\二叉树" />
       <recent name="F:\Github_Repo\jejune5\LeetCode\小浩×算法" />
       <recent name="F:\Github_Repo\jejune5\LeetCode" />
       <recent name="F:\Github_Repo\jejune5\LeetCode\小浩×算法\二叉树" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Github_Repo\jejune5\LeetCode\HAO\数组排序" />
+      <recent name="F:\Github_Repo\jejune5\LeetCode\小浩" />
+      <recent name="D:\JEJUNE\Github_Repo\jejune5\LeetCode" />
+      <recent name="G:\Turbulrnce\Graduate-Project\LeetCode\1-50" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -70,7 +90,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.239 滑动窗口最大值">
-    <configuration name="102 层次遍历与BFS (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="冒泡" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -78,12 +98,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HAO/二叉树" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HAO/数组排序" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HAO/二叉树/102 层次遍历与BFS.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HAO/数组排序/冒泡.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -92,7 +112,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="104 二叉树最大深度-DFS" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="回文链表" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -100,12 +120,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HAO/二叉树" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HAO/链表" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HAO/二叉树/104 二叉树最大深度-DFS.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HAO/链表/回文链表.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,7 +156,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="BST" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="选择" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -144,12 +164,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HAO/二叉树" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HAO/数组排序" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HAO/二叉树/BST.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HAO/数组排序/选择.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,7 +178,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="插入" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -166,12 +186,56 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HAO/数组排序" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HAO/数组排序/插入.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="希尔" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HAO/数组排序" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HAO/数组排序/希尔.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="jz24 链表反转" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HAO/链表" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HAO/链表/jz24 链表反转.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,10 +247,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.239 滑动窗口最大值" />
-        <item itemvalue="Python.BST" />
-        <item itemvalue="Python.102 层次遍历与BFS (1)" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.104 二叉树最大深度-DFS" />
+        <item itemvalue="Python.回文链表" />
+        <item itemvalue="Python.jz24 链表反转" />
+        <item itemvalue="Python.冒泡" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +328,11 @@
       <workItem from="1597393371240" duration="13264000" />
       <workItem from="1597578445601" duration="2635000" />
       <workItem from="1597676809134" duration="3825000" />
-      <workItem from="1599792103164" duration="7341000" />
+      <workItem from="1599792103164" duration="13756000" />
+      <workItem from="1599995433573" duration="11920000" />
+      <workItem from="1600676401187" duration="2562000" />
+      <workItem from="1600772358221" duration="12153000" />
+      <workItem from="1600864022729" duration="13871000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1576033373546</created>
@@ -482,13 +549,19 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/LeetCode$104__DFS.coverage" NAME="104 二叉树最大深度-DFS Coverage Results" MODIFIED="1597148361800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/二叉树" />
-    <SUITE FILE_PATH="coverage/LeetCode$102_BFS.coverage" NAME="102 层次遍历与BFS Coverage Results" MODIFIED="1596989483968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hao/二叉树" />
-    <SUITE FILE_PATH="coverage/LeetCode$TreeNode.coverage" NAME="TreeNode Coverage Results" MODIFIED="1596888499907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/小浩×算法/二叉树" />
-    <SUITE FILE_PATH="coverage/LeetCode$239_.coverage" NAME="239 滑动窗口最大值 Coverage Results" MODIFIED="1599801387187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/滑动窗口" />
-    <SUITE FILE_PATH="coverage/LeetCode$test.coverage" NAME="test Coverage Results" MODIFIED="1597414719975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
+    <SUITE FILE_PATH="coverage/LeetCode$102_BFS.coverage" NAME="102 层次遍历与BFS Coverage Results" MODIFIED="1599995985493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/二叉树" />
+    <SUITE FILE_PATH="coverage/LeetCode$.coverage" NAME="回文链表 Coverage Results" MODIFIED="1601019318240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/链表" />
     <SUITE FILE_PATH="coverage/LeetCode$102_BFS__1_.coverage" NAME="102 层次遍历与BFS (1) Coverage Results" MODIFIED="1597481035683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/二叉树" />
+    <SUITE FILE_PATH="coverage/LeetCode$jz24_.coverage" NAME="jz24 链表反转 Coverage Results" MODIFIED="1600865254277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/链表" />
+    <SUITE FILE_PATH="coverage/LeetCode$104__DFS.coverage" NAME="104 二叉树最大深度-DFS Coverage Results" MODIFIED="1599915791604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/二叉树" />
+    <SUITE FILE_PATH="coverage/LeetCode$94_.coverage" NAME="94 二叉树的中序遍历 Coverage Results" MODIFIED="1600678024878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/二叉树" />
+    <SUITE FILE_PATH="coverage/LeetCode$TreeNode.coverage" NAME="TreeNode Coverage Results" MODIFIED="1596888499907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/小浩×算法/二叉树" />
+    <SUITE FILE_PATH="coverage/LeetCode$JZ27_.coverage" NAME="JZ27 二叉树镜像 Coverage Results" MODIFIED="1599996897675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/二叉树" />
+    <SUITE FILE_PATH="coverage/LeetCode$239_.coverage" NAME="239 滑动窗口最大值 Coverage Results" MODIFIED="1601039683494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/滑动窗口" />
+    <SUITE FILE_PATH="coverage/LeetCode$test.coverage" NAME="test Coverage Results" MODIFIED="1597414719975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/LeetCode$BST.coverage" NAME="BST Coverage Results" MODIFIED="1597579654662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/二叉树" />
-    <SUITE FILE_PATH="coverage/LeetCode$LinkedList.coverage" NAME="LinkedList Coverage Results" MODIFIED="1596799820517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/小浩×算法/链表" />
+    <SUITE FILE_PATH="coverage/LeetCode$LinkedList.coverage" NAME="LinkedList Coverage Results" MODIFIED="1600773305720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/链表" />
+    <SUITE FILE_PATH="coverage/LeetCode$637_.coverage" NAME="637 二叉树的层平均值 Coverage Results" MODIFIED="1599921021932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/二叉树" />
+    <SUITE FILE_PATH="coverage/LeetCode$JZ54_K.coverage" NAME="JZ54 最大第K节点 Coverage Results" MODIFIED="1600092610094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/二叉树" />
   </component>
 </project>

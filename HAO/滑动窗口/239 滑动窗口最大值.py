@@ -2,8 +2,8 @@ def maxSlidingWindow(nums, k):
 
     return nums
 
-nums = [1,3,-1,-3,5,3,6,7]
-k = 3
+nums, k = [10,14,12,11],0
+
 
 ### 暴力法 ###
 '''
