@@ -27,8 +27,8 @@ def ListNodeTolist(head: ListNode) -> list:
     return List
 
 
-a = [1, 2, 3]
-res = listToListNode(a)
-List = ListNodeTolist(res)
-
-print(List)
+# a = [1, 2, 3]
+# res = listToListNode(a)
+# List = ListNodeTolist(res)
+#
+# print(List)

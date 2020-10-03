@@ -16,6 +16,7 @@ def reverse(head):
     cur = None
     while head:
         tmp = head.next
+        head.next = cur
         cur = head
         head = tmp
     return cur
@@ -29,4 +30,4 @@ head_ans = reverse(head)
 l2 = ll.ListNodeTolist(head_ans)
 
 
-print(l2)
+# print(l2)
