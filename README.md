@@ -1,5 +1,9 @@
 # 算法练习 Python实现
 
-# LeetCode 个人练习
+## 一、LeetCode 个人练习
+部分练习
+
+## 二、《剑指Offer》（第2版）
+python实现
 
 XJB写写的算法练习
