@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d50f7d7c-a474-4a7d-ad5b-59d48a6cb7ae" name="Default Changelist" comment="" />
+    <list default="true" id="d50f7d7c-a474-4a7d-ad5b-59d48a6cb7ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/myDataStructure/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/剑指Offer2/CH2/05 替换空格.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/剑指Offer2/CH2/06 从尾到头打印链表.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/Test/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Test/test.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +75,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.04 二维数组中的查找">
+  <component name="RunManager" selected="Python.05 替换空格">
     <configuration name="04 二维数组中的查找" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,6 +90,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/剑指Offer2/CH2/04 二维数组中的查找.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="05 替换空格" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/剑指Offer2/CH2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/剑指Offer2/CH2/05 替换空格.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,50 +156,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HAO/字符串/344 反转字符串.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="69 X的平方根" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HAO/二分法" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HAO/二分法/69 X的平方根.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="公共最长子序列" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HAO/字符串" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HAO/字符串/公共最长子序列.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -248,11 +232,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.04 二维数组中的查找" />
+        <item itemvalue="Python.05 替换空格" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.04 二维数组中的查找" />
         <item itemvalue="Python.3 数组中重复的数字" />
         <item itemvalue="Python.344 反转字符串" />
-        <item itemvalue="Python.69 X的平方根" />
       </list>
     </recent_temporary>
   </component>
@@ -345,6 +329,7 @@
       <workItem from="1602057104883" duration="9651000" />
       <workItem from="1602144267559" duration="1066000" />
       <workItem from="1602156579257" duration="8170000" />
+      <workItem from="1602223788581" duration="4049000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1576033373546</created>
@@ -591,11 +576,12 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCode$JZ54_K.coverage" NAME="JZ54 最大第K节点 Coverage Results" MODIFIED="1600092610094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/二叉树" />
-    <SUITE FILE_PATH="coverage/Python_algorithm_practice$test.coverage" NAME="test Coverage Results" MODIFIED="1602162225728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode/Test" />
+    <SUITE FILE_PATH="coverage/Python_algorithm_practice$test.coverage" NAME="test Coverage Results" MODIFIED="1602228631202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode/Test" />
     <SUITE FILE_PATH="coverage/LeetCode$191_1.coverage" NAME="191 返回二进制中1的个数 Coverage Results" MODIFIED="1601213037473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/位运算" />
     <SUITE FILE_PATH="coverage/LeetCode$NC66_.coverage" NAME="NC66 两个链表的第一个公共结点 Coverage Results" MODIFIED="1601821363360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/链表" />
     <SUITE FILE_PATH="coverage/LeetCode$2_.coverage" NAME="2 两数相加 Coverage Results" MODIFIED="1601813722287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/链表" />
     <SUITE FILE_PATH="coverage/LeetCode$239_.coverage" NAME="239 滑动窗口最大值 Coverage Results" MODIFIED="1601039683494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/滑动窗口" />
+    <SUITE FILE_PATH="coverage/Python_algorithm_practice$05_.coverage" NAME="05 替换空格 Coverage Results" MODIFIED="1602229086887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/剑指Offer2/CH2" />
     <SUITE FILE_PATH="coverage/LeetCode$nc50_k.coverage" NAME="nc50 每k个翻转 Coverage Results" MODIFIED="1601715523300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/链表" />
     <SUITE FILE_PATH="coverage/LeetCode$75__.coverage" NAME="75. 颜色分类 Coverage Results" MODIFIED="1602057954369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/其他" />
     <SUITE FILE_PATH="coverage/LeetCode$X.coverage" NAME="X的平方根 Coverage Results" MODIFIED="1602070177990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/二分法" />

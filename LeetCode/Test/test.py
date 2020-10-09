@@ -1,3 +1,9 @@
-t = [[]]
+s = '123456'
 
-print(len(t[0]))
+p2 = len(s)-1
+
+print(s[p2])
+
+
+
+print(s)
