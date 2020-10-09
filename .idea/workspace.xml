@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d50f7d7c-a474-4a7d-ad5b-59d48a6cb7ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/myDataStructure/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/剑指Offer2/CH2/05 替换空格.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/剑指Offer2/CH2/06 从尾到头打印链表.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myDataStructure/TreeNode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/剑指Offer2/CH2/07 重建二叉树.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LeetCode/Test/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Test/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myDataStructure/ListNode.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDataStructure/ListNode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/剑指Offer2/CH2/06 从尾到头打印链表.py" beforeDir="false" afterPath="$PROJECT_DIR$/剑指Offer2/CH2/06 从尾到头打印链表.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,8 +76,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.05 替换空格">
-    <configuration name="04 二维数组中的查找" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.07 重建二叉树">
+    <configuration name="06 从尾到头打印链表" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -89,7 +90,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/剑指Offer2/CH2/04 二维数组中的查找.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/剑指Offer2/CH2/06 从尾到头打印链表.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -98,7 +99,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="05 替换空格" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="07 重建二叉树" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -111,7 +112,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/剑指Offer2/CH2/05 替换空格.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/剑指Offer2/CH2/07 重建二叉树.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -120,7 +121,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3 数组中重复的数字" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ListNode" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -128,12 +129,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/剑指Offer2/CH2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myDataStructure" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:\Github_Repo\jejune5\Python-algorithm-practice\剑指Offer2\CH2\03 数组中重复的数字.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myDataStructure/ListNode.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -142,7 +143,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="344 反转字符串" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="TreeNode" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -150,12 +151,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HAO/字符串" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myDataStructure" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HAO/字符串/344 反转字符串.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myDataStructure/TreeNode.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -232,11 +233,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.05 替换空格" />
+        <item itemvalue="Python.07 重建二叉树" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.04 二维数组中的查找" />
-        <item itemvalue="Python.3 数组中重复的数字" />
-        <item itemvalue="Python.344 反转字符串" />
+        <item itemvalue="Python.TreeNode" />
+        <item itemvalue="Python.06 从尾到头打印链表" />
+        <item itemvalue="Python.ListNode" />
       </list>
     </recent_temporary>
   </component>
@@ -329,7 +330,7 @@
       <workItem from="1602057104883" duration="9651000" />
       <workItem from="1602144267559" duration="1066000" />
       <workItem from="1602156579257" duration="8170000" />
-      <workItem from="1602223788581" duration="4049000" />
+      <workItem from="1602223788581" duration="11353000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1576033373546</created>
@@ -576,7 +577,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCode$JZ54_K.coverage" NAME="JZ54 最大第K节点 Coverage Results" MODIFIED="1600092610094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/二叉树" />
-    <SUITE FILE_PATH="coverage/Python_algorithm_practice$test.coverage" NAME="test Coverage Results" MODIFIED="1602228631202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode/Test" />
+    <SUITE FILE_PATH="coverage/Python_algorithm_practice$test.coverage" NAME="test Coverage Results" MODIFIED="1602242301680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode/Test" />
     <SUITE FILE_PATH="coverage/LeetCode$191_1.coverage" NAME="191 返回二进制中1的个数 Coverage Results" MODIFIED="1601213037473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/位运算" />
     <SUITE FILE_PATH="coverage/LeetCode$NC66_.coverage" NAME="NC66 两个链表的第一个公共结点 Coverage Results" MODIFIED="1601821363360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/链表" />
     <SUITE FILE_PATH="coverage/LeetCode$2_.coverage" NAME="2 两数相加 Coverage Results" MODIFIED="1601813722287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/链表" />
@@ -586,14 +587,17 @@
     <SUITE FILE_PATH="coverage/LeetCode$75__.coverage" NAME="75. 颜色分类 Coverage Results" MODIFIED="1602057954369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/其他" />
     <SUITE FILE_PATH="coverage/LeetCode$X.coverage" NAME="X的平方根 Coverage Results" MODIFIED="1602070177990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/二分法" />
     <SUITE FILE_PATH="coverage/Python_algorithm_practice$3_.coverage" NAME="3 数组中重复的数字 Coverage Results" MODIFIED="1602159391673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/剑指Offer2/CH2" />
+    <SUITE FILE_PATH="coverage/Python_algorithm_practice$TreeNode.coverage" NAME="TreeNode Coverage Results" MODIFIED="1602231974834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myDataStructure" />
     <SUITE FILE_PATH="coverage/LeetCode$136_.coverage" NAME="136 只出现一次 Coverage Results" MODIFIED="1601215511797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/位运算" />
     <SUITE FILE_PATH="coverage/LeetCode$JZ27_.coverage" NAME="JZ27 二叉树镜像 Coverage Results" MODIFIED="1599996897675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/二叉树" />
     <SUITE FILE_PATH="coverage/LeetCode$2.coverage" NAME="合并2个有序数组 Coverage Results" MODIFIED="1601209688459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/数组" />
     <SUITE FILE_PATH="coverage/LeetCode$TreeNode.coverage" NAME="TreeNode Coverage Results" MODIFIED="1596888499907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/小浩×算法/二叉树" />
+    <SUITE FILE_PATH="coverage/Python_algorithm_practice$07_.coverage" NAME="07 重建二叉树 Coverage Results" MODIFIED="1602242337161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/剑指Offer2/CH2" />
     <SUITE FILE_PATH="coverage/LeetCode$BST.coverage" NAME="BST Coverage Results" MODIFIED="1597579654662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/二叉树" />
     <SUITE FILE_PATH="coverage/LeetCode$637_.coverage" NAME="637 二叉树的层平均值 Coverage Results" MODIFIED="1599921021932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/二叉树" />
     <SUITE FILE_PATH="coverage/LeetCode$875_.coverage" NAME="875 爱吃香蕉的珂珂 Coverage Results" MODIFIED="1601914535354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/二分法" />
     <SUITE FILE_PATH="coverage/LeetCode$94_.coverage" NAME="94 二叉树的中序遍历 Coverage Results" MODIFIED="1600678024878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/二叉树" />
+    <SUITE FILE_PATH="coverage/Python_algorithm_practice$ListNode.coverage" NAME="ListNode Coverage Results" MODIFIED="1602229824502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myDataStructure" />
     <SUITE FILE_PATH="coverage/LeetCode$18_.coverage" NAME="18 四数之和 Coverage Results" MODIFIED="1601907923075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/数组" />
     <SUITE FILE_PATH="coverage/Python_algorithm_practice$04_.coverage" NAME="04 二维数组中的查找 Coverage Results" MODIFIED="1602163289840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/剑指Offer2/CH2" />
     <SUITE FILE_PATH="coverage/LeetCode$LinkedList.coverage" NAME="LinkedList Coverage Results" MODIFIED="1600773305720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/链表" />
@@ -608,6 +612,7 @@
     <SUITE FILE_PATH="coverage/LeetCode$jz24_.coverage" NAME="jz24 链表反转 Coverage Results" MODIFIED="1601709427213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/链表" />
     <SUITE FILE_PATH="coverage/LeetCode$231_2.coverage" NAME="231 2的幂 Coverage Results" MODIFIED="1601210670418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/位运算" />
     <SUITE FILE_PATH="coverage/LeetCode$701_BST.coverage" NAME="701 BST的插入 Coverage Results" MODIFIED="1601458547096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/二叉树" />
+    <SUITE FILE_PATH="coverage/Python_algorithm_practice$06_.coverage" NAME="06 从尾到头打印链表 Coverage Results" MODIFIED="1602230977714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/剑指Offer2/CH2" />
     <SUITE FILE_PATH="coverage/LeetCode$104__DFS.coverage" NAME="104 二叉树最大深度-DFS Coverage Results" MODIFIED="1599915791604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/二叉树" />
     <SUITE FILE_PATH="coverage/LeetCode$test.coverage" NAME="test Coverage Results" MODIFIED="1597414719975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
   </component>

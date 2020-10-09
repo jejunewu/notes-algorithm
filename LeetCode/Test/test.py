@@ -1,9 +1,4 @@
-s = '123456'
+l = list(range(10))
 
-p2 = len(s)-1
+print(l[:1])
 
-print(s[p2])
-
-
-
-print(s)
