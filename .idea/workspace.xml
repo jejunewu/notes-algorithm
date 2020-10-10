@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d50f7d7c-a474-4a7d-ad5b-59d48a6cb7ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCode/HAO/链表/142 环形链表II.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newcoder/09 二叉树中是否存在节点和为指定值的路径.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newcoder/59 矩阵的最小路径.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newcoder/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/HAO/二叉树/二叉树根节点到叶子结点之和.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/HAO/二叉树/二叉树根节点到叶子结点之和.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/HAO/数组排序/选择.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/HAO/数组排序/选择.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/Test/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Test/test.py" afterDir="false" />
-    </list>
+    <list default="true" id="d50f7d7c-a474-4a7d-ad5b-59d48a6cb7ae" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -290,6 +281,7 @@
       <workItem from="1602223788581" duration="14077000" />
       <workItem from="1602310874227" duration="2821000" />
       <workItem from="1602319056900" duration="8536000" />
+      <workItem from="1602337913848" duration="607000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1576033373546</created>
