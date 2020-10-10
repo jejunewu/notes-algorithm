@@ -1,4 +1,4 @@
-from HAO.二叉树 import str2TreeNode as tree
+from myDataStructure import TreeNode as tree
 
 def sumNumbers(root):
     # write code here
@@ -14,9 +14,11 @@ def sumNumbers(root):
             res = dfs(path + str(root.val), root.right, res)
         return res
 
-    return sum([int(i) for i in dfs('', root,[])])
+    # return sum([int(i) for i in dfs('', root,[])])
+    ans = dfs('', root,[])
+    return ans
 
-root = '[1,2,3]'
-root = tree.stringToTreeNode(root)
+root = [1,2,3]
+root = tree.listToTreeNode(root)
 t = sumNumbers(root)
 print(t)
