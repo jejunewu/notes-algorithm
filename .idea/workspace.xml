@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d50f7d7c-a474-4a7d-ad5b-59d48a6cb7ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCode/HAO/链表/142 环形链表II.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newcoder/09 二叉树中是否存在节点和为指定值的路径.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newcoder/59 矩阵的最小路径.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newcoder/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/HAO/二叉树/530. 二叉搜索树的最小绝对差.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/HAO/二叉树/二叉树根节点到叶子结点之和.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/HAO/二叉树/二叉树根节点到叶子结点之和.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/HAO/数组排序/选择.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/HAO/数组排序/选择.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/Test/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Test/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +73,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.530. 二叉搜索树的最小绝对差">
     <configuration name="选择" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -94,6 +88,50 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/HAO/数组排序/选择.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="530. 二叉搜索树的最小绝对差" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode/HAO/二叉树" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/HAO/二叉树/530. 二叉搜索树的最小绝对差.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="59 矩阵的最小路径" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/newcoder" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/newcoder/59 矩阵的最小路径.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,28 +184,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="59 矩阵的最小路径" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/newcoder" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/newcoder/59 矩阵的最小路径.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,10 +208,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.530. 二叉搜索树的最小绝对差" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.59 矩阵的最小路径" />
-        <item itemvalue="Python.二叉树中是否存在节点和为指定值的路径" />
-        <item itemvalue="Python.二叉树根节点到叶子结点之和" />
         <item itemvalue="Python.选择" />
       </list>
     </recent_temporary>
@@ -291,7 +306,11 @@
       <workItem from="1602156579257" duration="8170000" />
       <workItem from="1602223788581" duration="14077000" />
       <workItem from="1602310874227" duration="2821000" />
-      <workItem from="1602319056900" duration="8536000" />
+      <workItem from="1602319056900" duration="11540000" />
+      <workItem from="1602412804194" duration="2000" />
+      <workItem from="1602486133126" duration="622000" />
+      <workItem from="1602487955034" duration="5928000" />
+      <workItem from="1602500097626" duration="3000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1576033373546</created>
@@ -533,6 +552,11 @@
           <line>39</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LeetCode/HAO/二叉树/530. 二叉搜索树的最小绝对差.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -544,6 +568,7 @@
     <SUITE FILE_PATH="coverage/LeetCode$2_.coverage" NAME="2 两数相加 Coverage Results" MODIFIED="1601813722287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/链表" />
     <SUITE FILE_PATH="coverage/LeetCode$239_.coverage" NAME="239 滑动窗口最大值 Coverage Results" MODIFIED="1601039683494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/滑动窗口" />
     <SUITE FILE_PATH="coverage/Python_algorithm_practice$05_.coverage" NAME="05 替换空格 Coverage Results" MODIFIED="1602229086887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/剑指Offer2/CH2" />
+    <SUITE FILE_PATH="coverage/Python_algorithm_practice$530__.coverage" NAME="530. 二叉搜索树的最小绝对差 Coverage Results" MODIFIED="1602493491892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode/HAO/二叉树" />
     <SUITE FILE_PATH="coverage/LeetCode$nc50_k.coverage" NAME="nc50 每k个翻转 Coverage Results" MODIFIED="1601715523300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/链表" />
     <SUITE FILE_PATH="coverage/LeetCode$75__.coverage" NAME="75. 颜色分类 Coverage Results" MODIFIED="1602057954369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/其他" />
     <SUITE FILE_PATH="coverage/LeetCode$X.coverage" NAME="X的平方根 Coverage Results" MODIFIED="1602070177990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HAO/二分法" />
