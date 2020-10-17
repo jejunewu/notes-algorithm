@@ -12,3 +12,10 @@ def listToListNode(numbers:list):
         ptr = ptr.next
     ptr = dummyRoot.next
     return ptr
+
+def listNodeToList(head):
+    res= []
+    while head:
+        res.append(head.val)
+        head = head.next
+    return res
