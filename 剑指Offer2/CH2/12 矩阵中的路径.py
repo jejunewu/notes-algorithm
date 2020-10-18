@@ -26,6 +26,5 @@ def exist(board, word):
 board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]]
 word = "ABCCED"
 
-
 ans = exist(board, word)
 print(ans)
