@@ -1,17 +1,17 @@
-def movingCount(m: int, n: int, k: int):
+def sumInt(m, n):
+    res = 0
+    while m > 0 and n > 0:
+        res += m % 10 + n % 10
+        m //= 10
+        n //= 10
+    if m > 0 or n > 0:
+        tmp = max(m, n)
+        while tmp > 0:
+            res += tmp % 10
+            tmp //= 10
+    return res
 
-    def sumInt(m, n):
-        res = 0
-        while m > 0 and n > 0:
-            res += m % 10 + n % 10
-            m //= 10
-            n //= 10
-        if m > 0 or n > 0:
-            tmp = max(m, n)
-            while tmp > 0:
-                res += tmp % 10
-                tmp //= 10
-        return res
+def movingCount(m: int, n: int, k: int):
 
     res=0
     for i in range(m):
