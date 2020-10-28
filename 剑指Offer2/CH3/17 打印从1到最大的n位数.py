@@ -7,4 +7,3 @@ def printNumbers(n: int):
 
 ################### Test ########################
 ans = printNumbers(2)
-print(ans)
