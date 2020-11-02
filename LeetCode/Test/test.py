@@ -1,5 +1,4 @@
-a = [[1],[2]]
+a = ['12','13']
 
-a += [3]
-# ans = a
-print(a)
+b = sum(map(int, a))
+print(b)

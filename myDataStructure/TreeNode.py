@@ -4,7 +4,7 @@ class TreeNode:
         self.left = None
         self.right = None
 
-def listToTreeNode(inputValues):
+def list2TreeNode(inputValues):
     # input = input.strip()
     # input = input[1:-1]
     # if not input:
@@ -38,7 +38,7 @@ def listToTreeNode(inputValues):
     return root
 
 
-def treeNodeToList(root):
+def treeNode2List(root):
     if not root:
         return "[]"
     output = []

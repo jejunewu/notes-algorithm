@@ -19,6 +19,6 @@ def sumNumbers(root):
     return ans
 
 root = [1,2,3]
-root = tree.listToTreeNode(root)
+root = tree.list2TreeNode(root)
 t = sumNumbers(root)
 print(t)
