@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="001a9816-ab63-4b31-870a-00fb1904ea8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCode/类型分类/数组/941. 有效的山脉数组.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/剑指Offer2/CH3/25. 合并两个排序的链表.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/剑指Offer2/CH3/26. 树的子结构.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="001a9816-ab63-4b31-870a-00fb1904ea8f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +174,7 @@
       <workItem from="1604382482145" duration="22000" />
       <workItem from="1604387501191" duration="5912000" />
       <workItem from="1604398445139" duration="3689000" />
-      <workItem from="1604405702418" duration="4332000" />
+      <workItem from="1604405702418" duration="4439000" />
     </task>
     <servers />
   </component>
