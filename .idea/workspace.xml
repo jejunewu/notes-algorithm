@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="001a9816-ab63-4b31-870a-00fb1904ea8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCode/类型分类/数组/1122. 数组的相对排序.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/类型分类/数组/31. 下一个排列.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/类型分类/链表/328. 奇偶链表.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/Test/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Test/test.py" afterDir="false" />
-    </list>
+    <list default="true" id="001a9816-ab63-4b31-870a-00fb1904ea8f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +179,7 @@
       <workItem from="1605164159340" duration="2814000" />
       <workItem from="1605169830043" duration="2703000" />
       <workItem from="1605249237287" duration="4081000" />
-      <workItem from="1605335573725" duration="4624000" />
+      <workItem from="1605335573725" duration="5169000" />
     </task>
     <servers />
   </component>
