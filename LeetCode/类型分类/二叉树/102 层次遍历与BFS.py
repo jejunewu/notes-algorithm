@@ -54,11 +54,11 @@ def levelOrder2(root):
 
 # s = '[3,9,20,null,null,15,7]'
 s = [1,2,3,4]
-root = node.listToTreeNode(s)
+root = node.list2TreeNode(s)
 # res = st.treeNodeToString(root)
 
 # res = levelOrder(root)
 
-res = levelOrder2(root)
+res = levelOrder(root)
 
 print(res)
