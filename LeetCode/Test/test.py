@@ -1,7 +1,6 @@
 s = "aaaabbbbcccc"
-b = ['a','b','c']
+cnt = [[]]
 
 
-
-t = 4 & 1
-print(t)
+ans = s.count('a')
+print(ans)
