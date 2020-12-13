@@ -1,6 +1,5 @@
-s = "aaaabbbbcccc"
-cnt = [[]]
+a = "a1b2a3b4a5b"
+t = []
 
-
-ans = s.count('a')
-print(ans)
+a = t[-1]
+print(a)

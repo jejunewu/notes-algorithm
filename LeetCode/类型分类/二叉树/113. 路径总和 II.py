@@ -1,12 +1,12 @@
-from HAO.二叉树 import str2TreeNode as tree
+from myDataStructure import TreeNode
 
 def pathSum(root, sum):
     pass
 
 
 #######################
-List, sum = '[5,4,8,11,null,13,4,7,2,null,null,5,1]', 22
-root = tree.stringToTreeNode(List)
+List, sum = [5,4,8,11,None,13,4,7,2,None,None,5,1], 22
+root = TreeNode.list2TreeNode(List)
 print(root.val)
 
 def pathSum(root, sum):
