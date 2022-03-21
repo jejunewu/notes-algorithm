@@ -1,4 +1,4 @@
-from myDataStructure import TreeNode
+from DataStructure import TreeNode
 
 def buildTree(preorder:list, inorder: list) -> TreeNode:
     if len(preorder) == 0:

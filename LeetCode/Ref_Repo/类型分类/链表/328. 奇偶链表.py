@@ -1,4 +1,4 @@
-from myDataStructure import ListNode
+from DataStructure import ListNode
 
 def oddEvenList(head):
     if not head:

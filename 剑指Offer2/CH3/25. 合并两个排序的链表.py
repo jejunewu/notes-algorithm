@@ -1,4 +1,4 @@
-from myDataStructure import ListNode
+from DataStructure import ListNode
 
 def mergeTwoLists(l1, l2):
     res = ListNode.ListNode(1)

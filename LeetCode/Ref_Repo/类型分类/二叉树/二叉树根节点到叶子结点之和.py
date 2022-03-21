@@ -1,4 +1,4 @@
-from myDataStructure import TreeNode as tree
+from DataStructure import TreeNode as tree
 
 def sumNumbers(root):
     # write code here

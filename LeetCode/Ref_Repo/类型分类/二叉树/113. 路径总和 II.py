@@ -1,4 +1,4 @@
-from myDataStructure import TreeNode
+from DataStructure import TreeNode
 
 def pathSum(root, sum):
     pass

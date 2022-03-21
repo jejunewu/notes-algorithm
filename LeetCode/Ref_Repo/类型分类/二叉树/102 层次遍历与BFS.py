@@ -1,4 +1,4 @@
-from myDataStructure import TreeNode as node
+from DataStructure import TreeNode as node
 
 
 def dfs(root, level, res:[]):

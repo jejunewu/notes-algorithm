@@ -1,4 +1,4 @@
-from myDataStructure import TreeNode
+from DataStructure import TreeNode
 
 def isSubStructure(A, B):
     def recur(A, B):

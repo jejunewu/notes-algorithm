@@ -1,4 +1,4 @@
-from myDataStructure import ListNode
+from DataStructure import ListNode
 
 def detectCycle(head: ListNode) -> ListNode:
     fast, slow = head, head
