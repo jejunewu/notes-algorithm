@@ -35,11 +35,35 @@ using namespace std;
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
+        int lens = s.size();
+        int left = 0;
+        int right = lens - 1;
 
+        while (left < right) {
+            if (){
+
+            left++;
+            } else{
+
+            right--;
+            }
+
+        }
+
+
+        cout << s.substr(0, 2);
+        cout << lens << endl;
+
+        return 0;
     }
 };
 
 int main() {
-    string split(66, '-');
-    cout << "hello world" << split << endl;
+
+    string s = "abcabcbb";
+
+
+    Solution solution;
+    int res = solution.lengthOfLongestSubstring(s);
+    cout << res << endl;
 };
