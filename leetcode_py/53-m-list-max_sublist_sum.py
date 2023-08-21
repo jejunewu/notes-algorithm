@@ -37,18 +37,12 @@ from typing import List
 
 
 class Solution:
+    # 动态规划法
     def maxSubArray(self, nums: List[int]) -> int:
-        l, r = 0, len(nums) - 1
-        max_sum = sum(nums)
-        while l < r:
-            if nums[l] < nums[r]:
-                l += 1
-            else:
-                r -= 1
-            if sum(nums[l:r + 1]) > max_sum:
-                max_sum = sum(nums[l:r + 1])
-                print(nums[l:r + 1])
-
+        sub_sum, max_sum = 0, nums[0]
+        for n in nums:
+            sub_sum = max(sub_sum + n, n)
+            max_sum = max(max_sum, sub_sum)
         return max_sum
 
 
@@ -56,10 +50,10 @@ if __name__ == '__main__':
     sol = Solution()
 
     cases = [
-        # ([-2, 1], 1),
-        # ([5, 4, -1, 7, 8], 23),
-        ([1, 2, -1, -2, 2, 1, -2, 1, 4, -5, 4], 6)
+        ([-2, 1], 1),
+        ([5, 4, -1, 7, 8], 23),
+        ([1, 2, -1, -2, 2, 1, -2, 1, 4, -5, 4], 6),
     ]
-    for case in cases:
+    for idx, case in enumerate(cases):
         res = sol.maxSubArray(case[0])
-        print(f"{case[1]} || {res} || {case[1] == res}")
+        print(f"case_id: {idx} || {case[1] == res} || {case[1]} || {res} ")

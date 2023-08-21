@@ -40,23 +40,37 @@
 #include "unordered_map"
 #include <vector>
 #include "iostream"
+#include "utility"
 
 using namespace std;
 
+#include <iostream>
+#include <vector>
+
 class Solution {
 public:
-    int maxSubArray(vector<int>& nums) {
-
+    //动态规划
+    int maxSubArray(const std::vector<int> &nums) {
+        int sub_sum = 0;
+        int max_sum = nums[0];
+        for (const int &n: nums) {
+            sub_sum = max(sub_sum + n, n);
+            max_sum = max(max_sum, sub_sum);
+        }
+        return max_sum;
     }
 };
 
 int main() {
-    // 示例
-    vector<int> nums = {2, 7, 11, 15};
-    int target = 9;
     Solution sol;
-    vector<int> result = sol.maxSubArray(nums, target);
-    for (int i: result) {
-        cout << i << " ";
+    vector<std::pair<std::vector<int>, int>> exps = {
+            {{-2, 1,  -3, 4, -1, 2, 1, -5, 4}, 6},
+            {{4,  -1, 2,  1},                  6},
+            {{5,  4,  -1, 7, 8},               23},
+    };
+    for (const auto &exp: exps) {
+        int result = sol.maxSubArray(exp.first);
+        std::cout << (result == exp.second) << " || " << result << " || " << exp.second << std::endl;
     }
+
 }
