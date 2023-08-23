@@ -29,30 +29,41 @@
 s 由英文字母、数字、符号和空格组成
 */
 #include <iostream>
+#include "vector"
+#include "unordered_map"
 
 using namespace std;
 
 class Solution {
 public:
+    /**
+     * 滑动窗口
+     * @param s
+     * @return
+     */
     int lengthOfLongestSubstring(string s) {
         int lens = s.size();
-        int left = 0;
-        int right = lens - 1;
-
-        while (left < right) {
-            if (){
-
-            left++;
-            } else{
-
-            right--;
-            }
-
-        }
-
-
-        cout << s.substr(0, 2);
         cout << lens << endl;
+//        if (lens)<2{
+//
+//        }
+//        int left = 0;
+//        int right = lens - 1;
+//
+//        while (left < right) {
+//            if () {
+//
+//                left++;
+//            } else {
+//
+//                right--;
+//            }
+//
+//        }
+
+
+//        cout << s.substr(0, 2);
+//        cout << lens << endl;
 
         return 0;
     }
@@ -60,10 +71,14 @@ public:
 
 int main() {
 
-    string s = "abcabcbb";
-
-
-    Solution solution;
-    int res = solution.lengthOfLongestSubstring(s);
-    cout << res << endl;
+    Solution sol;
+    vector<std::pair<std::string, int>> exps = {
+            {"abcabcbb", 3},
+            {"bbbbb",    1},
+            {"pwwkew",   3},
+    };
+    for (const auto &exp: exps) {
+        int result = sol.lengthOfLongestSubstring(exp.first);
+        std::cout << (result == exp.second) << " || " << result << " || " << exp.second << std::endl;
+    }
 };
