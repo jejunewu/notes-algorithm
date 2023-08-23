@@ -3,7 +3,8 @@ class ListNode:
         self.val = x
         self.next = None
 
-def list2ListNode(numbers:list):
+
+def list2ListNode(numbers: list):
     # Now convert that list into linked list
     dummyRoot = ListNode(0)
     ptr = dummyRoot
@@ -13,8 +14,9 @@ def list2ListNode(numbers:list):
     ptr = dummyRoot.next
     return ptr
 
-def listNode2List(head):
-    res= []
+
+def listNode2List(head: ListNode):
+    res = []
     while head:
         res.append(head.val)
         head = head.next

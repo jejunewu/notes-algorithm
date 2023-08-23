@@ -4,6 +4,7 @@ class TreeNode:
         self.left = None
         self.right = None
 
+
 def list2TreeNode(inputValues):
     # input = input.strip()
     # input = input[1:-1]
