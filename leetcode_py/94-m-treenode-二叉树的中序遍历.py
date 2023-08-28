@@ -33,7 +33,7 @@
 """
 
 from typing import Optional, List
-from DataStructure.TreeNode import *
+from DataStructure.BinaryTree import *
 
 
 class Solution:
@@ -59,5 +59,6 @@ if __name__ == '__main__':
         (TreeNode([1]), [1]),
     ]
     for idx, case in enumerate(cases):
-        res = list2TreeNode(sol.inorderTraversal(case[0]))
+        res = list2Tree(sol.inorderTraversal(case[0]))
+        res = tree2List(res)
         print(f"case_id: {idx} || {case[1] == res} || {case[1]} || {res} ")
