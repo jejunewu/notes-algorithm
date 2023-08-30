@@ -42,6 +42,7 @@ lRUCache.get(4);    // 返回 4
 '''
 
 
+# 未通过，有错误
 class LRUCache:
 
     def __init__(self, capacity: int):
@@ -77,8 +78,41 @@ class LRUCache:
         #     self.lru_order.append(key)
         # self.lru[key] = value
 
-# ["LRUCache","put","get","put","get","get"]
-# [[1],[2,1],[2],[3,2],[2],[3]]
+
+class DLinkedNode:
+    """ 双向链表 """
+    def __init__(self, key=0, value=0):
+        self.key = key
+        self.value = value
+        self.prev = None
+        self.next = None
+
+
+
+class LRUCache2:
+    """
+    利用 HashMap + 双向链表的方式
+    ref: https://leetcode.cn/problems/lru-cache/solutions/259678/lruhuan-cun-ji-zhi-by-leetcode-solution/
+    """
+
+    def __init__(self, capacity: int):
+        self.capacity = capacity
+        self.hashmap = {}
+        # 新建头尾，相互指向
+        self.head = DLinkedNode()
+        self.tail = DLinkedNode()
+        self.head.next = self.tail
+        self.tail.prev = self.head
+
+    def move_node_to_tail(self, key):
+        node = self.hashmap[key]
+
+    def get(self, key: int) -> int:
+        return
+
+    def put(self, key: int, value: int) -> None:
+        return
+
 
 if __name__ == '__main__':
     lru = LRUCache(1)
