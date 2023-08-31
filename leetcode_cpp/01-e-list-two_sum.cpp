@@ -48,13 +48,17 @@
 
 using namespace std;
 
-class Solution {
+class Solution
+{
 public:
-    vector<int> twoSum(vector<int> &nums, int target) {
+    vector<int> twoSum(vector<int> &nums, int target)
+    {
         unordered_map<int, int> hash;
-        for (int i = 0; i < nums.size(); i++) {
+        for (int i = 0; i < nums.size(); i++)
+        {
             int complement = target - nums[i];
-            if (hash.find(complement) != hash.end()) {
+            if (hash.find(complement) != hash.end())
+            {
                 return {hash[complement], i};
             }
             hash[nums[i]] = i;
@@ -63,13 +67,29 @@ public:
     }
 };
 
-int main() {
-    // 示例
-    vector<int> nums = {2, 7, 11, 15};
-    int target = 9;
+int main()
+{
     Solution sol;
-    vector<int> result = sol.twoSum(nums, target);
-    for (int i: result) {
-        cout << i << " ";
+    std::vector<std::tuple< std::vector<int>, int, std::vector<int> >> exps = {
+        {{-2, 1, -3, 4, -1, 2, 1, -5, 4}, 6, {0, 1}},
+        {{4, -1, 2, 1}, 6, {0, 2}},
+        {{3, 3}, 6, {0, 1}},
+    };
+    for (const auto &exp : exps)
+    {
+        auto param1 = std::get<0>(exp);
+        auto param2 = std::get<1>(exp);
+        auto res = std::get<2>(exp);
+        auto result = sol.twoSum(param1, param2);
+        
+        std::cout << (result == res) << " || ";
+        for (auto r : result) {
+            std::cout << r << " ";
+        }
+        std::cout << "|| ";
+        for (auto r : res) {
+            std::cout << r << " ";
+        }
+        std::cout << std::endl;
     }
 }
