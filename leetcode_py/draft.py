@@ -1,5 +1,5 @@
-from collections import OrderedDict
+a = [1,2,3,1]
+# b = a.copy()
+a.pop(1)
 
-od = OrderedDict({1: 2, 2: 3})
-
-print(od)
+print(a)
