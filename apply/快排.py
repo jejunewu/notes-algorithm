@@ -2,6 +2,15 @@
 原理参考参考视频教程：
 https://www.bilibili.com/video/BV1vP411g7J3
 
+- 时间复杂度
+最好：O(nlogn)
+最差：O(n^2)
+
+- 空间复杂度
+O(1)
+
+- 稳定性
+不稳定
 """
 
 
