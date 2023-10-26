@@ -8,8 +8,7 @@ def solve_batch(solution_obj, cases):
     for i, case in enumerate(cases):
         result = fn(*case[:-1])
         label = case[-1]
-        info = f"case:{i} || {result == label} || {result=} || {label=} ||"
+        info = f"case:{i} || {result == label} || {result=} || {label=} || "
         for param in case[:-1]:
-            info += f"{param}, "
-        info += f"{result}"
+            info += f"`{param}`, "
         print(info)

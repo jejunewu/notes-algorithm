@@ -26,20 +26,14 @@ from typing import List
 
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
-        return
+        return 123
 
 
 if __name__ == '__main__':
-    sol = Solution()
+    from utils.solution import solve_batch
 
     cases = [
-        ([3, 2, 1, 5, 6, 4], 2),
-        ([3, 2, 3, 1, 2, 4, 5, 5, 6], 4),
+        ([3, 2, 1, 5, 6, 4], 2, 5),
+        ([3, 2, 3, 1, 2, 4, 5, 5, 6], 4, 4),
     ]
-    for idx, case in enumerate(cases):
-        param1 = case[0]
-        param2 = case[1]
-        res = case[-1]
-
-        res = sol.findKthLargest(case[0], case[1])
-        print(f"case_id: {idx} || {case[1] == res} || {case[1]} || {res} ")
+    solve_batch(Solution, cases)
