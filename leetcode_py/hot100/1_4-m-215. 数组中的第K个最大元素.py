@@ -25,8 +25,14 @@ from typing import List
 
 
 class Solution:
+    def findKthLargest_1(self, nums: List[int], k: int) -> int:
+        """内置方法，笔试无用"""
+        return sorted(nums, reverse=True)[k - 1]
+
     def findKthLargest(self, nums: List[int], k: int) -> int:
-        return 123
+        """快排"""
+        # TODO
+        return 0
 
 
 if __name__ == '__main__':
