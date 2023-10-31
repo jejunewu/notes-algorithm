@@ -30,18 +30,28 @@
 # 滑动窗口的方法
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
-        occ = set()
-        for i in range(len(s)):
-            if s[i] not in occ:
-                occ.add(s[i])
-                print(occ)
-        return 0
+        if len(s) == 1:
+            return 1
+        res = 0
+        for i in range(len(s) - 1):
+            occ = set()
+            for j in range(i, len(s)):
+                if s[j] not in occ:
+                    occ.add(s[j])
+                else:
+                    break
+            res = max(res, len(occ))
+        return res
 
 
 from utils.solution import solve_batch
 
 cases = [
-    ("abcabcbb", 3,),
-    # ("pwwkew", 3,)
+    ("au", 2),
+    # (" ", 1),
+    # ("", 0),
+    # ("abcabcbb", 3,),
+    # ("pwwkew", 3,),
+    # ("bbbb", 1),
 ]
 solve_batch(Solution, cases)
