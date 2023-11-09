@@ -9,6 +9,7 @@ def solve_batch(solution_obj, cases):
         result = fn(*case[:-1])
         label = case[-1]
         info = f"case:{i} || {result == label} || {result=} || {label=} || "
+        info+='args='
         for param in case[:-1]:
             info += f"`{param}`, "
         print(info)
