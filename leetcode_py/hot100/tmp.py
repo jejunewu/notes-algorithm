@@ -1,5 +1,3 @@
-d = {0: 1}
+a = 6 ^ 7
 
-p = d.get(7, 2)
-
-print(p)
+print(a)

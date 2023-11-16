@@ -46,7 +46,11 @@
 
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:
-        return 0
+        dp = [[1] * n] * m
+        for i in range(1, m):
+            for j in range(1, n):
+                dp[i][j] = dp[i - 1][j] + dp[i][j - 1]
+        return dp[-1][-1]
 
 
 if __name__ == '__main__':
@@ -55,7 +59,8 @@ if __name__ == '__main__':
     solve_batch(
         Solution,
         [
-            (7, 3, 28),
-            (3, 3, 6)
+            (3, 2, 3),
+            (3, 3, 6),
+            (1, 3, 1)
         ]
     )
