@@ -1,3 +1,3 @@
 a = 6 ^ 7
 
-print(a)
+print(ord('1'))
