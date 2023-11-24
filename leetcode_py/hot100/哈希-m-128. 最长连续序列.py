@@ -30,12 +30,25 @@
 
 from typing import *
 
+'''
+hash + 时间O(n)
+'''
+
 
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
-        nums = sorted(list(set(nums)))
-        print(nums)
-        return 0
+        nums = set(nums)
+
+        max_len = 0
+        for n in nums:
+            if n - 1 not in nums:
+                n_cur = n
+                sub_len = 1
+                while n_cur + 1 in nums:
+                    n_cur += 1
+                    sub_len += 1
+                max_len = max(max_len, sub_len)
+        return max_len
 
 
 if __name__ == '__main__':
