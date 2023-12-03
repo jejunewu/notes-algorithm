@@ -32,7 +32,7 @@ from typing import List
 
 """ 堆方法 """
 
-""" 快排 超时！ """
+""" 直接快排 超时！ """
 
 
 class Solution:
@@ -52,8 +52,8 @@ class Solution:
     def _quick_sort(self, arr, low, high):
         if low >= high:
             return
-        # 避免重复的超时
-        while low < high and arr[low] == arr[low + 1]:
+        # !!!!避免重复的超时
+        while 0 < low < high and arr[low] == arr[low - 1]:
             low += 1
         pivotpos = self._partition(arr, low, high)
         self._quick_sort(arr, low, pivotpos - 1)
@@ -71,8 +71,9 @@ if __name__ == '__main__':
     solve_batch(
         Solution,
         [
+            ([3, 3, 3, 3, 3, 3, 3, 3, 3], 1, 3),
             ([3, 2, 3, 1, 2, 4, 5, 5, 6], 9, 1),
-            # ([3, 2, 1, 5, 6, 4], 2, 5),
-            # ([3, 2, 3, 1, 2, 4, 5, 5, 6], 4, 4)
+            ([3, 2, 1, 5, 6, 4], 2, 5),
+            ([3, 2, 3, 1, 2, 4, 5, 5, 6], 4, 4)
         ]
     )

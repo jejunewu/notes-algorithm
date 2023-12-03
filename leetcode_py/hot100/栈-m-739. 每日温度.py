@@ -47,9 +47,21 @@ class Solution:
                     res.append(0)
         return res + [0]
     '''
+    '''
+    - 视频讲解：https://leetcode.cn/problems/daily-temperatures/solutions/71433/leetcode-tu-jie-739mei-ri-wen-du-by-misterbooo/?envType=study-plan-v2&envId=top-100-liked
+    - 栈方法：
+        栈存一个递减的 （索引，温度），然后逐个比较栈顶元素。
+    '''
 
     def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
-        return []
+        stack = []
+        res = [0] * len(temperatures)
+        for i, t in enumerate(temperatures):
+            while stack and t > stack[-1][1]:
+                i_pop, t_pop = stack.pop()
+                res[i_pop] = i - i_pop
+            stack.append((i, t))
+        return res
 
 
 if __name__ == '__main__':
