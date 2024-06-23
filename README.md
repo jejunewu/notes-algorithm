@@ -1,19 +1,22 @@
 # NOTES-ALGORITHM
-算法练习 py/cpp实现
 
+传统算法练习 py/cpp实现
 
 ## 结构
-### 1. [LeetCode](https://github.com/jejune5/notes-algorithm/tree/master/LeetCode) : [LC_cn](https://leetcode-cn.com/problemset/all/)
 
-### 2. [JZOf (II)](https://github.com/jejune5/notes-algorithm/tree/master/%E5%89%91%E6%8C%87Offer2) :  [Ref](https://book.douban.com/subject/27008702/)
+### 1. apply: 面试被问的
 
-### 3. [myDataStructure]() : 常用数据结构自定义
+### 2. jianzhi_offer2
 
-### 4. [newcoder]() : NC practice
+### 3. leetcode_cpp
 
-### 5. [Interview]() :  Interview record
+### 4. leetcode_py
 
+### 5. newcoder
+
+### 6. utils
 
 ## 参考
+
 - [https://leetcode.cn/](https://leetcode.cn/)
 - [https://codetop.cc/home](https://codetop.cc/home)
