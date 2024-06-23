@@ -38,10 +38,14 @@ from typing import *
 
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
-        length = len(nums)
-        for i in range(length):
-            print(i)
-        return 0
+        res = pre_max = pre_min = nums[0]
+        for n in nums[1:]:
+            cur_max = max(pre_max * n, pre_min * n, n)
+            cur_min = min(pre_max * n, pre_min * n, n)
+            res = max(res, cur_max)
+            pre_max = cur_max
+            pre_min = cur_min
+        return res
 
 
 if __name__ == '__main__':
