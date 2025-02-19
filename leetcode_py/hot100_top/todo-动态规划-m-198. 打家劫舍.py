@@ -30,14 +30,24 @@
 0 <= nums[i] <= 400
 
 """
+
+
+'''
+nums = [1,2,3,1]
+i=0, dp[]
+i=1, dp[]
+
+
+'''
 from utils import *
 
 
 class Solution:
     def rob(self, nums: List[int]) -> int:
         dp = nums
-        for i in range(2, len(nums)):
+        for i in range(1, len(nums)):
             dp[i] = max(nums[i] + dp[i - 2], dp[i - 1])
+            print(i, dp)
         return max(dp)
 
         # if n + dp
