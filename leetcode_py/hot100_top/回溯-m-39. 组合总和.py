@@ -65,7 +65,6 @@ class Solution:
                 backtrack(i, sub_list, sub_sum + candidates[i])
                 sub_list.pop()
 
-
         backtrack(0, [], 0)
 
         return res
