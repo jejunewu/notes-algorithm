@@ -41,6 +41,7 @@ wordDict 中的所有字符串 互不相同
 from utils import *
 
 """
+1. 状态转移方程：dp[j] && dp[j:i+1] in map
 
 """
 
@@ -54,18 +55,6 @@ class Solution:
                 if dp[j] and s[j:i + 1] in wordDict:
                     dp[i + 1] = True
                     break
-        return dp[-1]
-
-
-
-
-            # if dp[j] and s[j:i + 1] in wordDict:
-            #     dp[i + 1] = True
-
-            # dp[0] = True
-
-        print(dp)
-
         return dp[-1]
 
 
