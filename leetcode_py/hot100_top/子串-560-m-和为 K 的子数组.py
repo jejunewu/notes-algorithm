@@ -37,14 +37,37 @@ from typing import List
 解法二：前缀和hash
 把前缀和保存到字典，类似两数之和的解法，只需一次遍历
 '''
+
+"""
+def subarraySum(self, nums: List[int], k: int) -> int:
+    count_dict={0:1} # 键是n-k，值是次数，设个0::1，目的是为了碰到单个元素为0
+    s, res = 0, 0
+    for n in nums:
+        s+=n
+        if s-k  in count_dict:
+            res += count_dict[s-k]
+        if s in count_dict:
+            count_dict[s] += 1
+        else:
+            count_dict[s] = 1 
+    return res  
+"""
+
 class Solution:
 
     def subarraySum(self, nums: List[int], k: int) -> int:
+        prefix_sum = {0: 1}
         res = 0
-        for i in range(len(nums)):
-            for j in range(i, len(nums)):
-                if sum(nums[i:j + 1]) == k:
-                    res += 1
+        sums = 0
+        for n in nums:
+            sums += n
+            if sums - k in prefix_sum:
+                res += prefix_sum[sums - k]
+            if sums in prefix_sum:
+                prefix_sum[sums] += 1
+            else:
+                prefix_sum[sums] = 1
+
         return res
 
 
