@@ -31,7 +31,6 @@
 
 """
 
-
 '''
 nums = [1,2,3,1]
 i=0, dp[]
@@ -44,21 +43,12 @@ from utils import *
 
 class Solution:
     def rob(self, nums: List[int]) -> int:
-        dp = nums
-        for i in range(1, len(nums)):
+        n = len(nums)
+        dp = [nums[0]] * n
+        dp[1] = max(nums[:2])
+        for i in range(2, n):
             dp[i] = max(nums[i] + dp[i - 2], dp[i - 1])
-            print(i, dp)
         return max(dp)
-
-        # if n + dp
-        # if dp > n:
-        #     dp = dp + n
-        # else:
-        #     dp = n
-        # print(n)
-        # print(max_res)
-        # if len(nums) <= 2:
-        #     return max()
 
 
 if __name__ == '__main__':

@@ -39,16 +39,16 @@ text1 和 text2 仅由小写英文字符组成。
 """
 
 '''
+
 二维动态规划
 
 1. 定义一个二维状态转移矩阵： (m+1) * (n+1) 的dp
 
 2. 状态转移方程:
-    1) txt1[i] == txt[j]
+    1) txt1[i] == txt2[j]
         dp[i][j] = dp[i-1]dp[j-1] + 1
     2) txt1[i] != txt[j]
         dp[i][j] = max(dp[i-1]dp[j], dp[i]dp[j-1])
-
 
 
 '''
