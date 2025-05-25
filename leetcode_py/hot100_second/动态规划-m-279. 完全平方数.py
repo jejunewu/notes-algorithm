@@ -40,30 +40,24 @@ n=4, s=2, a=1
 
 class Solution:
     def numSquares(self, n: int) -> int:
-        dp = [i for i in range(n + 1)]
+        # 初始化 全 1  的 dp
+        dp = list(range(n + 1))
         for i in range(1, n + 1):
-            # 从 1-> sqrt(i) 开始，因为平方数最大为 sqrt(i)
-            for j in range(1, int(math.sqrt(i)) + 1):
-                dp[i] = min(dp[i], dp[i - j * j] + 1)
+            for j in range(1, int(i ** 0.5) + 1):
+                # print(i, j, j**2)
+                dp[i] = min(dp[i], dp[i - j ** 2] + 1)
 
-                print(i, j, dp)
-            # if i==2:
-            #     break
+                # print(i)
+
+        # print(dp)
 
         return dp[-1]
-
-        # for j in range
-        #     for j in range(1, i - j * j + 1):
-        #         if j * j > i:
-        #             break
-        #         dp[i] = min(dp[i], dp[i - j * j] + 1)
-        #
-        # return dp[-1]
 
 
 if __name__ == '__main__':
     solve_batch(
         Solution, [
+            (4, 1),
             (12, 3),
             # (13, 2),
         ]

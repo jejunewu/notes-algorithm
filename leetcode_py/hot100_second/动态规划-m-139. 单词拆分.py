@@ -37,7 +37,7 @@ wordDict 中的所有字符串 互不相同
 
 
 """
-
+from loguru import logger
 from utils import *
 
 """
@@ -48,10 +48,11 @@ from utils import *
 
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
-        dp = [False] * (len(s) + 1)
+        n = len(s)
+        dp = [False for _ in range(n + 1)]
         dp[0] = True
-        for i in range(len(s)):
-            for j in range(i + 1):
+        for i in range(n):
+            for j in range(i+1):
                 if dp[j] and s[j:i + 1] in wordDict:
                     dp[i + 1] = True
                     break
@@ -61,7 +62,9 @@ class Solution:
 if __name__ == '__main__':
     solve_batch(
         Solution, [
-            # ("leetcode", ["leet", "code"], True),
-            ("applepenapple", ["apple", "pen"], True)
+            ("a", ["a"], True),
+            ("applepenapple", ["apple", "pen"], True),
+            ("leetcode", ["leet", "code"], True),
+            ("applepenapple", ["apple", "pen"], True),
         ]
     )

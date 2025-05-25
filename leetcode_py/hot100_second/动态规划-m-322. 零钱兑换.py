@@ -44,6 +44,11 @@ dp[0] = 0
 dp[1] = 1
 dp[2] = min()
 
+
+按照 i-coin 来更新dp，
+
+【边界】：i-coin < 0 时无效
+
 状态转移方程：dp[i] = min(dp[i], dp[i-coin] + 1)
 
 
@@ -53,15 +58,20 @@ dp[2] = min()
 class Solution:
 
     def coinChange(self, coins: List[int], amount: int) -> int:
-        dp = [float("inf")] * (amount + 1)
+
+        # 定义一个大的状态转移空间
+        dp = [float("inf") for _ in range(amount + 1)]
         dp[0] = 0
-        for i in range(1, amount + 1):
+
+        for i in range(amount + 1):
             for coin in coins:
                 if i - coin < 0:
                     continue
-                dp[i] = min(dp[i], dp[i - coin] + 1)
+                dp[i] = dp[i - coin] + 1
+
         if dp[amount] == float("inf"):
             return -1
+
         return dp[amount]
 
 
