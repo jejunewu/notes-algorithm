@@ -3,6 +3,7 @@ from typing import List
 
 # 用hash方法做
 
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         hashtable = {}
